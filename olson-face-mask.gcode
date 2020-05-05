@@ -9,9 +9,9 @@
 ;MAXY:297.334
 ;MAXZ:2.96
 ;Generated with Cura_SteamEngine 4.6.1
-M140 S50
+M140 S60
 M105
-M190 S50
+M190 S60
 M104 S210
 M105
 M109 S210
@@ -10275,7 +10275,7 @@ G0 X157.138 Y166.86
 G0 X157.131 Y166.865
 ;TIME_ELAPSED:2595.031562
 ;LAYER:1
-M140 S50
+M140 S55
 M106 S85
 ;TYPE:WALL-INNER
 ;MESH:face-ez-cut-jig-rev0.stl
@@ -82830,8 +82830,9 @@ M104 S0
 ;SETTING_3 {"global_quality": "[general]\\nversion = 4\\nname = Standard Quality
 ;SETTING_3  #2\\ndefinition = creality_cr10\\n\\n[metadata]\\ntype = quality_cha
 ;SETTING_3 nges\\nquality_type = standard\\n\\n[values]\\nlayer_height_0 = 0.16\
-;SETTING_3 \n\\n", "extruder_quality": ["[general]\\nversion = 4\\nname = Standa
-;SETTING_3 rd Quality #2\\ndefinition = creality_cr10\\n\\n[metadata]\\ntype = q
-;SETTING_3 uality_changes\\nposition = 0\\nquality_type = standard\\n\\n[values]
-;SETTING_3 \\ninitial_layer_line_width_factor = 80\\nmaterial_print_temperature_
-;SETTING_3 layer_0 = 210\\nspeed_print = 100\\n\\n"]}
+;SETTING_3 \nmaterial_bed_temperature = 55\\nmaterial_bed_temperature_layer_0 = 
+;SETTING_3 60\\n\\n", "extruder_quality": ["[general]\\nversion = 4\\nname = Sta
+;SETTING_3 ndard Quality #2\\ndefinition = creality_cr10\\n\\n[metadata]\\ntype 
+;SETTING_3 = quality_changes\\nposition = 0\\nquality_type = standard\\n\\n[valu
+;SETTING_3 es]\\ninitial_layer_line_width_factor = 80\\nmaterial_print_temperatu
+;SETTING_3 re_layer_0 = 210\\nspeed_print = 100\\n\\n"]}
